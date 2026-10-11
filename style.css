@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+.container { max-width: 600px; margin: 0 auto; }
+h1 { text-align: center; margin-bottom: 30px; color: #1a1a1a; }
+.card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+h2 { font-size: 18px; margin-bottom: 15px; color: #4a4a4a; }
+.form-group { display: flex; flex-direction: column; gap: 10px; }
+input { padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 16px; }
+
+button {
+    background-color: #0066ff; color: white; border: none;
+    padding: 12px; border-radius: 8px; font-size: 16px;
+    font-weight: bold; cursor: pointer; transition: 0.2s;
+}
+button:active { background-color: #004cbf; }
+
+.produto-item { border: 1px solid #eee; padding: 15px; border-radius: 8px; margin-bottom: 10px; display: flex; flex-direction: column; gap: 10px; }
+.produto-header { display: flex; justify-content: space-between; align-items: center; font-weight: bold; font-size: 18px; }
+.acoes { display: flex; gap: 10px; }
+.btn-saida { background-color: #ff4444; }
+.btn-entrada { background-color: #00c851; }
+.btn-excluir { background-color: #888; padding: 8px; font-size: 14px;}
+.previsao { font-size: 14px; padding: 5px 10px; border-radius: 5px; background-color: #e3f2fd; color: #0d47a1; }
+.alerta-estoque { background-color: #ffebee; color: #c62828; }
